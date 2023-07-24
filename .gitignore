@@ -120,6 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+spamClassification_venv/
 .env
 .venv
 env/
