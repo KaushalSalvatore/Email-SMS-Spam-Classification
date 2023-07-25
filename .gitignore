@@ -119,6 +119,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+#data files
+dataset/emails/
+
 # Environments
 spamClassification_venv/
 .env
