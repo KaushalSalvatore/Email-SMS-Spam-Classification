@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Message Detection </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="static/images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="static/images/img-01.png" alt="IMG">
+			</div>
+                {% if result == 0  %}
+				<div class="container-contact1-form-btn">
+					<span class="contact1-form-title">
+                        Not Spam
+                    </span>
+				</div>
+                {% endif %}
+                {% if result == 1  %}
+				<div class="container-contact1-form-btn">
+					<span class="contact1-form-title">
+                        Spam
+                    </span>
+				</div>
+                {% endif %}
+		</div>
+	</div>
+
+
+
+</body>
+</html>
