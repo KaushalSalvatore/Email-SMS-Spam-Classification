@@ -120,7 +120,8 @@ celerybeat.pid
 *.sage.py
 
 #data files
-dataset/emails/
+dataset/
+notebook/
 
 # Environments
 spamClassification_venv/
